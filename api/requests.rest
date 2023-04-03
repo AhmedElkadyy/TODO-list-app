@@ -1,0 +1,22 @@
+
+GET http://localhost:3000/todos
+
+###
+
+POST http://localhost:3000/todos/new
+Content-Type: application/json
+    
+  {
+  "text": "bacholer",
+  "completed": true
+}
+
+
+###
+
+DELETE http://localhost:3000/todos/delete/64270356d1f491e3a20949ea
+
+
+###
+
+PUT http://localhost:3000/todos/completed/6427039dd1f491e3a20949ec
